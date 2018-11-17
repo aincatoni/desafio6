@@ -1,8 +1,23 @@
 /* resets */
 
-html, body {padding: 0; }
-.clearfix {clear: both;}
-img {max-width: 100%;}
+html, body {
+	padding: 0; 
+	font-family: sans-serif;
+	color:#5a5a5a;
+}
+
+.row {
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+}
+
+img {
+	max-width: 100%;
+}
+
 /* Grid 12 col */
 
 /* min-mobile (col) */
@@ -256,11 +271,14 @@ img {max-width: 100%;}
 /* Fin del grid */
 
 /* Inicio estilos */
+ 
  .container{
- 	border: 1px solid #eee;
-    padding: 0 10px;
+ 	border: 1px solid #6ad9bd;
+    padding: 20px 30px;
     box-sizing: border-box;
     margin: 0 auto;
+    border-radius: 5px;
+    background-color: ghostwhite;
  }
  header {
  	text-align: center;
@@ -276,3 +294,34 @@ img {max-width: 100%;}
  	border-radius: 100%;
  	margin: 0 auto;
  }
+
+/* Titulos */
+h1 span {
+	color:#62dabf;
+}
+h2, h3, h4, h5, h6 {
+	color: #62dabf;
+}
+
+ /*skills*/
+
+.estrellas ul {
+	width: 100%;
+    margin: 0 auto;
+
+}
+ .estrellas ul li {
+
+ 	list-style: none;
+ 	float:left;
+ 	width: 10%;
+ }
+
+  .estrellas ul li img {
+
+ 	width: 100%;
+    float: left;
+ }
+
+
+    
