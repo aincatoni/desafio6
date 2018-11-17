@@ -2,7 +2,7 @@
 
 html, body {padding: 0; }
 .clearfix {clear: both;}
-
+img {max-width: 100%;}
 /* Grid 12 col */
 
 /* min-mobile (col) */
@@ -252,3 +252,27 @@ html, body {padding: 0; }
 		width: 100%;
 	}
 }
+
+/* Fin del grid */
+
+/* Inicio estilos */
+ .container{
+ 	border: 1px solid #eee;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+ }
+ header {
+ 	text-align: center;
+ }
+
+ header h1 {
+ 	    border-bottom: 1px solid #ccc;
+ }
+
+ header img {
+
+ 	width: 30%;
+ 	border-radius: 100%;
+ 	margin: 0 auto;
+ }
